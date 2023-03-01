@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+      - sorting
   pull_request:
     branches:
       - master
+      - sorting
 jobs:
   build:
     runs-on: ubuntu-latest
